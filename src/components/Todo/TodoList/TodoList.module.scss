@@ -1,0 +1,33 @@
+.todoList {
+  list-style-type: none;
+  padding: 0;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+
+    &__checkbox {
+      margin-right: 10px;
+      border-radius: 50%;
+
+      input {
+        border-radius: 50%;
+      }
+    }
+
+    &__text {
+      text-decoration: none;
+
+        &_completed {
+          text-decoration: line-through;
+          color: #6c6c6c;
+        }
+    }
+  }
+
+
+}
+

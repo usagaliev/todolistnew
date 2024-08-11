@@ -1,0 +1,21 @@
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  align-items: flex-start;
+
+  .footer {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .clearCompleted {
+      cursor: pointer;
+    }
+  }
+}
